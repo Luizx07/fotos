@@ -1,5 +1,5 @@
 async function carregarDados() {
-    const url = ''
+    const url = 'https://api-fotos-hseq.onrender.com/fotos'
     const response = await fetch(url)
     const data = await response.json()
     return data

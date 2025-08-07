@@ -21,12 +21,13 @@ body {
   flex-direction: column;  
   justify-content: center; 
   align-items: center;    
-  gap: 20px;              
+  gap: 10px;              
 }
 
 .container {
-  max-width: 700px;
-  width: 100%;
+  width: 70%;
+  justify-content: center;
+  justify-items: center;
   text-align: center;
 }
 
@@ -38,8 +39,9 @@ h1 {
 }
 
 .carousel-container {
+    align-items: center;
     position: relative;
-    max-width: 700px;
+    width: 90%;
     margin: 0 auto;
     border-radius: 15px;
     overflow: hidden;
@@ -50,7 +52,7 @@ h1 {
 .carousel {
     display: flex;
     transition: transform 0.5s ease-in-out;
-    height: 400px;
+    height: 900px;
 }
 
 .carousel-item {
