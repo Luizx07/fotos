@@ -1,5 +1,5 @@
 async function carregarDados() {
-    const url = 'http://localhost:3000/fotos'
+    const url = ''
     const response = await fetch(url)
     const data = await response.json()
     return data
